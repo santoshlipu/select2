@@ -1,0 +1,32 @@
+<head>
+    <script src="jquery.min.js"></script>
+    <script src="select2.min.js"></script>
+    <link href="select2.css" rel="stylesheet"/>
+   
+	
+    
+</head>
+<body>
+   <select id="example"  style="width: 300px">
+        <option value="JAN">January</option>
+        <option value="FEB">February</option>
+        <option value="MAR">March</option>
+        <option value="APR">April</option>
+        <option value="MAY">May</option>
+        <option value="JUN">June</option>
+        <option value="JUL">July</option>
+        <option value="AUG">August</option>
+        <option value="SEP">September</option>
+        <option value="OCT">October</option>
+        <option value="NOV">November</option>
+        <option value="DEC">December</option>
+    </select>
+</body>
+
+
+<script>
+ $('#example').select2({
+    placeholder: 'Select a month'
+});
+
+</script>
